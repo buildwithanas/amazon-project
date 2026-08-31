@@ -28,8 +28,8 @@ const products = [{
   rating: {
     stars: 5,
     count: 2197,
-  }
-
+  },
+  priceCents: 1899
 }];
 
 let productsHTML = '';
