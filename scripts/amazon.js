@@ -79,4 +79,5 @@ products.forEach((products) => {
   console.log(productsHTML)
 })
 
-document.querySelector('.js-products-grid')
+document.querySelector('.js-products-grid').
+innerHTML = productsHTML;
