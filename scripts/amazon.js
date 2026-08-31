@@ -15,7 +15,7 @@ const products = [{
   },
   priceCents: 2095
 }, {
-  images: 'images/products/adults-plain-cotton-tshirt-2-pack-teal.jpg',
+  image: 'images/products/adults-plain-cotton-tshirt-2-pack-teal.jpg',
   name: 'Adults Plain Cotton T-Shirt - 2 Pack',
   rating: {
     stars: 4.5,
@@ -29,7 +29,7 @@ products.forEach((products) => {
     <div class="product-container">
       <div class="product-image-container">
         <img class="product-image"
-          src="images/products/athletic-cotton-socks-6-pairs.jpg">
+          src="${products.image}">
       </div>
 
       <div class="product-name limit-text-to-2-lines">
