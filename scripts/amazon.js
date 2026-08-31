@@ -33,12 +33,12 @@ products.forEach((products) => {
       </div>
 
       <div class="product-name limit-text-to-2-lines">
-        Black and Gray Athletic Cotton Socks - 6 Pairs
+        ${products.name}
       </div>
 
       <div class="product-rating-container">
         <img class="product-rating-stars"
-          src="images/ratings/rating-45.png">
+          src="images/ratings/rating-${products.rating}.png">
         <div class="product-rating-count link-primary">
           87
         </div>
