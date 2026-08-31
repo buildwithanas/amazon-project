@@ -23,3 +23,7 @@ const products = [{
   },
   priceCents: 799
 }];
+
+products.forEach((products) => {
+  
+})
