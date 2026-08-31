@@ -25,5 +25,5 @@ const products = [{
 }];
 
 products.forEach((products) => {
-  
+  const html = ``
 })
