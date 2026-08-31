@@ -24,6 +24,8 @@ const products = [{
   priceCents: 799
 }, {
   image: 
+  name:
+  
 }];
 
 let productsHTML = '';
