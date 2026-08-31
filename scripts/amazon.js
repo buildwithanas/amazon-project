@@ -75,6 +75,6 @@ products.forEach((products) => {
       </button>
     </div>
   `;
-  console.log('')
+  console.log(html)
 })
 
