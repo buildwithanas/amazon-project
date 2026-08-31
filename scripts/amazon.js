@@ -45,7 +45,7 @@ products.forEach((products) => {
       </div>
 
       <div class="product-price">
-        ${priceCents}
+        $${products.priceCents / 100}
       </div>
 
       <div class="product-quantity-container">
