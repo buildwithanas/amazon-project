@@ -7,5 +7,5 @@ const products = [{
   },
   priceCents: 1090
 }, {
-  
+  image: 'images/products/intermediate-composite-basketball.jpg'
 }];
