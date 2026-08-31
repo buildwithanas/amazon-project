@@ -10,6 +10,6 @@ const products = [{
   image: 'images/products/intermediate-composite-basketball.jpg',
   name: 'Intermediate Size Basketball',
   rating: {
-    
+    stars: 4,
   }
 }];
