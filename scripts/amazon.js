@@ -23,9 +23,9 @@ const products = [{
   },
   priceCents: 799
 }, {
-  image: 
+  image: images/products/black-2-slot-toaster.jpg
   name:
-  
+
 }];
 
 let productsHTML = '';
