@@ -102,6 +102,7 @@ products.forEach((products) => {
   `;
 })
 
+
 document.querySelector('.js-products-grid').
 innerHTML = productsHTML;
 
