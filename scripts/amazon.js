@@ -108,6 +108,10 @@ innerHTML = productsHTML;
 document.querySelectorAll('.js-add-to-cart')
   .forEach((button) => {
     button.addEventListener('click', () => {
-      console.log('Added product');
+      const productName = button.dataset.productName;
+      cart.push({
+        productName: productName,
+        quantity: 1;
+      })
     });
   });
