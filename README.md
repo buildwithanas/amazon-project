@@ -2,20 +2,20 @@
 
 A responsive e-commerce website inspired by Amazon, built as part of my JavaScript learning journey.
 
-## 🚀 About the Project
+## About the Project
 
 This project is helping me practice and apply what I'm learning in JavaScript by turning a static e-commerce interface into an interactive web application.
 
 The **HTML and CSS** structure and styling are currently completed. The next stage is to use **JavaScript** to add functionality and interactivity.
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 * HTML5
 * CSS3
 * JavaScript
 * Git & GitHub
 
-## ✨ Planned Features
+## Planned Features
 
 * Product listing
 * Shopping cart
