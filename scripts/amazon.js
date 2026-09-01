@@ -123,14 +123,9 @@ document.querySelectorAll('.js-add-to-cart')
         cart.push({
         productName: productName,
         quantity: 1
-      })
-    };
+      });
+    }
 
     console.log(cart);
-      }
-
-
-
-
-      
-  });
+  }); 
+});
