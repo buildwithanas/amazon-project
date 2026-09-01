@@ -109,9 +109,28 @@ document.querySelectorAll('.js-add-to-cart')
   .forEach((button) => {
     button.addEventListener('click', () => {
       const productName = button.dataset.productName;
-      cart.push({
+
+      let matchimgItem;
+      cart.forEach((item) => {
+        if (productName === item.productName) {
+          matchimgItem = item;
+        }
+        });
+
+      if (matchingItem) {
+        matchingItem.quantity += 1;
+      } else {
+        cart.push({
         productName: productName,
-        quantity: 1;
+        quantity: 1
       })
-    });
+    };
+
+    console.log(cart);
+      }
+
+
+
+
+      
   });
