@@ -111,10 +111,10 @@ document.querySelectorAll('.js-add-to-cart')
     button.addEventListener('click', () => {
       const productName = button.dataset.productName;
 
-      let matchimgItem;
+      let matchingItem;
       cart.forEach((item) => {
         if (productName === item.productName) {
-          matchimgItem = item;
+          matchingItem = item;
         }
         });
 
