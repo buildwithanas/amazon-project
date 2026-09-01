@@ -119,7 +119,7 @@ document.querySelectorAll('.js-add-to-cart')
         });
 
       if (matchingItem) {
-        matchingItem.quantity += 1;
+        matchingItem.quantity = +1;
       } else {
         cart.push({
         productName: productName,
