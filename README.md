@@ -26,7 +26,7 @@ The **HTML and CSS** structure and styling are currently completed. The next sta
 * Local storage
 * Responsive design
 
-## 📚 What I'm Learning
+## What I'm Learning
 
 Through this project, I'm practicing:
 
@@ -39,7 +39,7 @@ Through this project, I'm practicing:
 * Git and GitHub
 * Building interactive web applications
 
-## 📌 Project Status
+## Project Status
 
 🚧 **In Progress**
 
