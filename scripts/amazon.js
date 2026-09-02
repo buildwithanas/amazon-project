@@ -106,7 +106,7 @@ products.forEach((products) => {
 
 
 
-function addtoCart() {
+function addtoCart(productId) {
   let matchingItem;
       cart.forEach((item) => {
         if (productId === item.productId) {
@@ -134,7 +134,7 @@ document.querySelectorAll('.js-add-to-cart')
   .forEach((button) => {
     button.addEventListener('click', () => {
       const productId = button.dataset.productId;
-      addTOCart();
+      addtoCart(productId);
 
       
 
