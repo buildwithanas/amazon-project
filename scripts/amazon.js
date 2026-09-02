@@ -132,9 +132,7 @@ function cartQuantity() {
 
     document.querySelector('.js-cart-quantity')
     .innerHTML = cartQuantity;
-  }; 
-
-
+  };
 
 document.querySelector('.js-products-grid').
 innerHTML = productsHTML;
@@ -144,6 +142,7 @@ document.querySelectorAll('.js-add-to-cart')
     button.addEventListener('click', () => {
       const productId = button.dataset.productId;
       addtoCart(productId);
+      cartQuantity();
   }); 
 });
 
