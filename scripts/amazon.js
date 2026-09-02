@@ -1,4 +1,4 @@
-import {cart} from '../data';
+import {cart} from '../data/cart.js';
 /*const products = [{
   image: 'images/products/athletic-cotton-socks-6-pairs.jpg',
   name: 'Black and Gray Athletic Cotton Socks - 6 Pairs',
