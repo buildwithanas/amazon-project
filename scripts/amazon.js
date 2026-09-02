@@ -124,7 +124,7 @@ function addtoCart(productId) {
     }
 }
 
-function cartQuantity() {
+function updateCartQuantity() {
   let cartQuantity = 0;
     cart.forEach((item) => {
       cartQuantity += item.quantity;
@@ -142,7 +142,7 @@ document.querySelectorAll('.js-add-to-cart')
     button.addEventListener('click', () => {
       const productId = button.dataset.productId;
       addtoCart(productId);
-      cartQuantity();
+      updateQuantity();
   }); 
 });
 
