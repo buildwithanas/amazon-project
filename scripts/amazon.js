@@ -105,6 +105,14 @@ products.forEach((products) => {
 })
 
 
+
+function addtoCart() {
+  
+}
+
+
+
+
 document.querySelector('.js-products-grid').
 innerHTML = productsHTML;
 
