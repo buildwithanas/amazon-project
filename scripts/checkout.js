@@ -1,6 +1,7 @@
 import {cart} from '../data/cart.js';
 import {products} from '../data/products.js';
 
+let cartSummaryHTML = '';
 cart.forEach((cartItem) => {
   const productId = cartItem.productId;
   let matchingProduct;
