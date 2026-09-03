@@ -92,3 +92,4 @@ cart.forEach((cartItem) => {
           </div>
   `
 });
+console.log(cartSummaryHTML);
