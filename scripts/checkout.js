@@ -24,10 +24,11 @@ cart.forEach((cartItem) => {
 
               <div class="cart-item-details">
                 <div class="product-name">
-                  Intermediate Size Basketball
+                  ${matchingProduct.name}
                 </div>
                 <div class="product-price">
-                  $20.95
+                  $${matchingProduct.priceCents / 100}
+                  
                 </div>
                 <div class="product-quantity">
                   <span>
