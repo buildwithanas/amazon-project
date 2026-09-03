@@ -20,7 +20,7 @@ cart.forEach((cartItem) => {
 
             <div class="cart-item-details-grid">
               <img class="product-image"
-                src="images/products/intermediate-composite-basketball.jpg">
+                src="${"matchingProduct.image"}">
 
               <div class="cart-item-details">
                 <div class="product-name">
