@@ -28,11 +28,11 @@ cart.forEach((cartItem) => {
                 </div>
                 <div class="product-price">
                   $${matchingProduct.priceCents / 100}
-                  
+
                 </div>
                 <div class="product-quantity">
                   <span>
-                    Quantity: <span class="quantity-label">1</span>
+                    Quantity: <span class="quantity-label">${cartItem.quantity}</span>
                   </span>
                   <span class="update-quantity-link link-primary">
                     Update
