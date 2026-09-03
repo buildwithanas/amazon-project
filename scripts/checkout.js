@@ -12,7 +12,6 @@ cart.forEach((cartItem) => {
   });
 
 
-  console.log(matchingProduct);
   `
     <div class="cart-item-container">
             <div class="delivery-date">
