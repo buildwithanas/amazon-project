@@ -8,6 +8,9 @@ export const cart = [
   }
 ];
 
+functionSaveToStorage() {
+  localStorage.setItem('CART', JSON.stringify(cart));
+}
 export function addToCart(productId) {
   let matchingItem;
       cart.forEach((cartItem) => {
