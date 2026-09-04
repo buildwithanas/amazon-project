@@ -13,7 +13,7 @@ cart.forEach((cartItem) => {
   });
 
 
-  cartSummaryHTML +=
+  cartSummaryHTML += 1
   `
     <div class="cart-item-container">
             <div class="delivery-date">
