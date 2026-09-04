@@ -8,7 +8,7 @@ export const cart = [
   }
 ];
 
-functionSaveToStorage() {
+function saveToStorage() {
   localStorage.setItem('CART', JSON.stringify(cart));
 }
 export function addToCart(productId) {
@@ -20,11 +20,12 @@ export function addToCart(productId) {
         });
 
       if (matchingItem) {
-        matchingItem.quantity = +1;
+        matchingItem.quantity =+1;
       } else {
         cart.push({
         productId: productId,
         quantity: 1
       });
     }
+    saveToStorage();
 }
