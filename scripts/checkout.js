@@ -13,8 +13,7 @@ cart.forEach((cartItem) => {
   });
 
 
-  cartSummaryHTML +=
-
+  cartSummaryHTML += 1;
   `
     <div class="cart-item-container">
             <div class="delivery-date">
@@ -23,7 +22,7 @@ cart.forEach((cartItem) => {
 
             <div class="cart-item-details-grid">
               <img class="product-image"
-                src="${"matchingProduct.image"}">
+                src="${matchingProduct.image}">
 
               <div class="cart-item-details">
                 <div class="product-name">
@@ -93,6 +92,6 @@ cart.forEach((cartItem) => {
   `
 });
 
-
+console.log(cartSummaryHTML);
 document.querySelector('.js-order-summary')
   .innerHTML = cartSummaryHTML;
