@@ -20,7 +20,7 @@ export function addToCart(productId) {
         });
 
       if (matchingItem) {
-        matchingItem.quantity =+1;
+        matchingItem.quantity++;
       } else {
         cart.push({
         productId: productId,
@@ -28,4 +28,16 @@ export function addToCart(productId) {
       });
     }
     saveToStorage();
+}
+
+export function removeFromCart(productId) {
+  const newCart = [];
+  cart.forEach((cartItem) => {
+    if (cartItem.productId !== productId) {
+      newCart.push(cartItem);
+    }
+  });
+  cart.length = 0;
+  cart.push(...newCart);
+  saveToStorage();
 }
