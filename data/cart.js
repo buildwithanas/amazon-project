@@ -1,4 +1,4 @@
-export const cart = JSON.parse (localStorage.getItem('cart'));
+export let cart = JSON.parse (localStorage.getItem('cart'));
 
 if (!cart) {
   cart = [{
