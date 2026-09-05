@@ -47,3 +47,7 @@ export function removeFromCart(productId) {
   //cart.push(...newCart);
   saveToStorage();
 }
+
+function removeFromCart(productId) {
+  const newCart = [];
+}
