@@ -12,8 +12,7 @@ cart.forEach((cartItem) => {
     }
   });
 
-  cartSummaryHTML += 1
-  `
+  cartSummaryHTML += `
     <div class="cart-item-container">
             <div class="delivery-date">
               Delivery date: Wednesday, June 15
