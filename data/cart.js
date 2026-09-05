@@ -19,9 +19,9 @@ export let cart = [{
 
 
 
-function saveToStorage() {
-  localStorage.setItem('CART', JSON.stringify(cart));
-}
+//function saveToStorage() {
+  //localStorage.setItem('CART', JSON.stringify(cart));
+//}
 export function addToCart(productId) {
   let matchingItem;
       cart.forEach((cartItem) => {
