@@ -96,6 +96,6 @@ document.querySelectorAll('.js-delete-link')
   .forEach((link) => {
     link.addEventListener('click', () => {
       // Handle delete functionality
-      
+      link.dataset.productId;
     });
   });
