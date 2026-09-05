@@ -34,7 +34,7 @@ export function addToCart(productId) {
     saveToStorage();
 }
 
-export function removeFromCart(productId) {
+/*export function removeFromCart(productId) {
   const newCart = [];
   cart.forEach((cartItem) => {
     if (cartItem.productId !== productId) {
@@ -46,7 +46,7 @@ export function removeFromCart(productId) {
  // cart.length = 0;
   //cart.push(...newCart);
   saveToStorage();
-}
+}*/
 
 function removeFromCart(productId) {
   const newCart = [];
