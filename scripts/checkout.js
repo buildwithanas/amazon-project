@@ -97,6 +97,7 @@ document.querySelectorAll('.js-delete-link')
     link.addEventListener('click', () => {
       // Handle delete functionality
       const productId = link.dataset.productId;
-      console.log('productId');
+      removeFromCart(productId);
+      console.log('cart');
     });
   });
