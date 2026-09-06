@@ -100,7 +100,7 @@ document.querySelectorAll('.js-delete-link')
       removeFromCart(productId);
 
       document.querySelector(
-        '.js-car-item'
+        '.js-car-item-container-'
       )
     });
   });
