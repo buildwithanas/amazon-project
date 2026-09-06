@@ -45,8 +45,6 @@ The HTML and CSS are done, and I'm currently working on the JavaScript part.
 
 This is mainly a learning project, so I'll keep improving it as I learn more.
 
-Anas Amoo
-
 Building and learning one project at a time.
 
 **Built by Anas Amoo** 
