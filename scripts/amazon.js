@@ -50,6 +50,7 @@ import {products} from '../data/products.js';
   priceCents: 3499
 }];*/
 
+
 let productsHTML = '';
 products.forEach((products) => {
   productsHTML += `
