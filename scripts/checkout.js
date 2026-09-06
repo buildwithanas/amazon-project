@@ -98,5 +98,7 @@ document.querySelectorAll('.js-delete-link')
       // Handle delete functionality
       const productId = link.dataset.productId;
       removeFromCart(productId);
+
+      document.querySelector
     });
   });
