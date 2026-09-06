@@ -99,8 +99,9 @@ document.querySelectorAll('.js-delete-link')
       const productId = link.dataset.productId;
       removeFromCart(productId);
 
-      document.querySelector(
+      const container = document.querySelector(
         `.js-cart-item-container-${productId}`
-      )
+      );
+      console
     });
   });
