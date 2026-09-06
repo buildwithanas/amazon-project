@@ -98,6 +98,6 @@ document.querySelectorAll('.js-delete-link')
       // Handle delete functionality
       const productId = link.dataset.productId;
       removeFromCart(productId);
-      console.log('cart');
+      console.log(cart);
     });
   });
